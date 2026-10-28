@@ -1,7 +1,7 @@
 {
   "name": "game-ui",
-  "description": "遊戲介面：classic-ro-game-ui 照早期經典 Ragnarok Online PC 版的視覺語言設計與實作介面——視窗框、按鈕、道具格、狀態／裝備／技能視窗、像素圖示、角色與怪物 sprite 的畫法與逐格動畫，含 design token；只借視覺語言，不複製官方美術",
-  "version": "0.1.0",
+  "description": "遊戲介面：classic-ro 照早期經典 Ragnarok Online PC 版的視覺語言設計與實作介面——視窗框、按鈕、道具格、狀態／裝備／技能視窗、像素圖示、角色與怪物 sprite 的畫法與逐格動畫，含 design token；只借視覺語言，不複製官方美術",
+  "version": "0.2.0",
   "author": {
     "name": "ywwwtseng"
   },

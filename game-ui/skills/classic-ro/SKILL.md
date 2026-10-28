@@ -1,5 +1,5 @@
 ---
-name: classic-ro-game-ui
+name: classic-ro
 description: Design and implement interfaces with the recognizable visual language of early classic Ragnarok Online PC MMORPGs. Use for RPG UI, game dashboards, inventory, character status, skill windows, quest panels, retro fantasy interfaces, or when a user requests an authentic classic RO-inspired look.
 ---
 

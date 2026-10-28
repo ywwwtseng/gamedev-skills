@@ -21,14 +21,14 @@ ywwwtseng 的遊戲開發 Claude Code plugins。結構與更新方式跟 [ywwwts
 
 | Plugin | Skill | 呼叫 | 做什麼 |
 |---|---|---|---|
-| game-ui | classic-ro-game-ui | `/game-ui:classic-ro-game-ui`（描述符合時也會自動載入） | 照早期經典 Ragnarok Online PC 版的視覺語言設計與實作介面：視窗框、按鈕、道具格、狀態／裝備／技能視窗、像素圖示、角色與怪物 sprite 的畫法與逐格動畫，design token 在 `assets/design-tokens.css`。只借視覺語言，不複製官方美術 |
+| game-ui | classic-ro | `/game-ui:classic-ro`（描述符合時也會自動載入） | 照早期經典 Ragnarok Online PC 版的視覺語言設計與實作介面：視窗框、按鈕、道具格、狀態／裝備／技能視窗、像素圖示、角色與怪物 sprite 的畫法與逐格動畫，design token 在 `assets/design-tokens.css`。只借視覺語言，不複製官方美術 |
 
 ## 結構
 
 ```
 .
 ├── .claude-plugin/marketplace.json   # 列出所有 plugin，source 指向分類資料夾
-├── game-ui/                          # 遊戲介面：classic-ro-game-ui
+├── game-ui/                          # 遊戲介面：classic-ro
 └── <plugin>/
     ├── .claude-plugin/plugin.json    # plugin 名稱、版本
     ├── skills/<skill-name>/SKILL.md  # skill 本體
