@@ -1,0 +1,6 @@
+.DS_Store
+**/feedback.md
+# 有版權的參考圖（例如官方 RO 的 sprite sheet）只放本機，不進公開 repo
+**/assets/reference-images/*.png
+**/assets/reference-images/*.jpg
+**/assets/reference-images/*.gif

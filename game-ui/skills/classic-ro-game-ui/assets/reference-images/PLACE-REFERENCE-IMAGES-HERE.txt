@@ -1,0 +1,5 @@
+Place legitimate classic Ragnarok Online UI reference screenshots in this folder if you have permission to use them. Recommended: main client, character status, inventory/equipment, skills, item tooltip, and a monster/pet sprite sheet. The skill does not include official RO artwork as assets.
+
+poring-sprite-sheet.png: classic RO monster sprite sheet, used only as visual evidence for the sprite grammar in SKILL.md (outline colour, shading bands, tiny face, squash-and-stretch, splatter). Never copy or trace it into a product.
+
+Images in this folder (*.png, *.jpg, *.gif) are git-ignored: the repo is public and these are copyrighted screenshots, so they stay on the machine that has them.

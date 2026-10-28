@@ -1,0 +1,52 @@
+/* Starting tokens for a classic RO-inspired interface.
+   Adapt to the actual project and validate contrast before production. */
+:root {
+  --ro-parchment: #E8DFC9;
+  --ro-parchment-light: #F4EDDC;
+  --ro-wood: #80674E;
+  --ro-wood-dark: #514033;
+  --ro-border: #A18A69;
+  --ro-forest: #78916D;
+  --ro-sky: #779BBE;
+  --ro-gold: #C4A46B;
+  --ro-text: #42372E;
+  --ro-disabled: #A69C8B;
+
+  --ro-border-thin: 1px solid var(--ro-border);
+  --ro-border-strong: 2px solid var(--ro-wood-dark);
+  --ro-shadow-window: 0 2px 5px rgb(42 31 22 / 24%);
+  --ro-shadow-inset: inset 1px 1px 0 rgb(255 255 255 / 55%);
+
+  --ro-space-1: 4px;
+  --ro-space-2: 8px;
+  --ro-space-3: 12px;
+  --ro-space-4: 16px;
+  --ro-space-5: 24px;
+
+  --ro-window-radius: 2px;
+  --ro-control-radius: 2px;
+}
+
+/* Cool variant: classic equipment / status window (white body, gray-blue frame,
+   light-blue gradient title strip with dark text, circular window buttons).
+   Apply with data-ro-theme="blue" on the window root; do not mix with the parchment family. */
+[data-ro-theme="blue"] {
+  --ro-surface: #FFFFFF;      /* window body */
+  --ro-btn: #E8EEF6;          /* button fill (gradient from #FBFDFF) */
+  --ro-line: #8EA4C3;         /* button / input border */
+  --ro-frame: #6880A6;        /* window outer frame */
+  --ro-inner: #D3DEEC;        /* pale inner frame line */
+  --ro-title-from: #EEF4FB;   /* title strip gradient */
+  --ro-title-mid: #C9D9EE;
+  --ro-title-to: #B3C8E4;
+  --ro-title-text: #1F2A3A;
+  --ro-focus: #3D6DB3;
+  --ro-text: #27313F;
+  --ro-muted: #66758A;
+  --ro-hi: #FFFFFF;           /* raised control: top-left line */
+  --ro-lo: #B8C7DA;           /* raised control: bottom-right line */
+
+  --ro-window-radius: 5px 5px 2px 2px;
+  --ro-control-radius: 3px;
+  --ro-shadow-window: 0 2px 5px rgb(36 56 88 / 24%);
+}
