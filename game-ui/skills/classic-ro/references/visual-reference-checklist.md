@@ -14,7 +14,7 @@ Use this checklist when collecting or evaluating reference screenshots for a cla
 
 Local only (copyrighted, git-ignored, so a plugin install does not have it): `assets/reference-images/poring-sprite-sheet.png` (classic RO monster sheet). The sprite grammar in SKILL.md already records what it shows. When present, use it only to observe outline colour, shading bands, face size and the squash-and-stretch / splatter frames; do not trace or copy it.
 
-Observed (screenshot not stored): classic **equipment window**: white body; thin gray-blue frame with white and pale-blue inner lines; slightly rounded top corners; short light-blue gradient title strip with a small icon and dark title text; circular ⊖ ⊗ controls at the top-right; tabs under the title; equipment slots as pale blue-gray rounded placeholders flanking the character; a light-blue label strip ("人物能力屬性狀態欄") separating the stats section; stats in compact two-column label/value rows. This is the reference for the "Cool variant" in SKILL.md.
+Observed (screenshot not stored): classic **equipment window**: white body; thin gray-blue frame with white and pale-blue inner lines; slightly rounded top corners; short sky-blue gradient title strip (light band near the top, darkest about 40% down, lighter at the bottom, a near-black bottom line) with a small round blue orb and black bold title text outlined in white; ⊖ ⊗ controls at the top-right drawn as small blue orbs with dark rings; tabs under the title; equipment slots as pale blue-gray rounded placeholders flanking the character; a light-blue label strip ("人物能力屬性狀態欄") separating the stats section; stats in compact two-column label/value rows. This is the reference for the "Cool variant" in SKILL.md.
 
 ## What to observe
 - Outer silhouette and proportions of each window.
@@ -27,6 +27,8 @@ Observed (screenshot not stored): classic **equipment window**: white body; thin
 - How several windows coexist without losing readability.
 
 ## How to use references
+
+- **Sample a photo, do not eyeball it.** When the reference is a photo of a screen, load it and average a vertical and a horizontal profile (a few px wide, away from text and glare) before picking gradient stops; eyeballing gets fooled by highlight bands and vignetting. A camera shooting a screen comes out dark, so lift the sampled values by roughly 10–15%. Vertical stripes are moiré, white blotches are glare and darker left/right ends are lens vignetting — do not draw any of them.
 - Treat screenshots as visual evidence, not as assets to copy blindly.
 - Record recurring patterns in a small component specification.
 - Use references from the same game era/version when consistency matters.

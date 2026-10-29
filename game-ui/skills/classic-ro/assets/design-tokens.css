@@ -28,7 +28,7 @@
 }
 
 /* Cool variant: classic equipment / status window (white body, gray-blue frame,
-   light-blue gradient title strip with dark text, circular window buttons).
+   sky-blue gradient title strip with black outlined text, blue orb window buttons).
    Apply with data-ro-theme="blue" on the window root; do not mix with the parchment family. */
 [data-ro-theme="blue"] {
   --ro-surface: #FFFFFF;      /* window body */
@@ -36,10 +36,18 @@
   --ro-line: #8EA4C3;         /* button / input border */
   --ro-frame: #6880A6;        /* window outer frame */
   --ro-inner: #D3DEEC;        /* pale inner frame line */
-  --ro-title-from: #EEF4FB;   /* title strip gradient */
-  --ro-title-mid: #C9D9EE;
-  --ro-title-to: #B3C8E4;
-  --ro-title-text: #1F2A3A;
+  /* title strip: light band ~20%, darkest ~40%, lighter toward the bottom; no left-right shading */
+  --ro-title-strip: linear-gradient(to bottom, #8CB0D8, #B0CFEA 20%, #6F9CCC 42%, #9BC0E2 62%, #B3D0E4 85%, #BDD5E6);
+  --ro-title-edge: #354A6C;   /* bottom line of the title strip */
+  --ro-title-ink: #111111;    /* title text on the strip, with --ro-title-halo */
+  --ro-title-halo: -1px 0 #FFF, 1px 0 #FFF, 0 -1px #FFF, 0 1px #FFF, -1px -1px #FFF, 1px -1px #FFF, -1px 1px #FFF, 1px 1px #FFF;
+  --ro-title-text: #1F2A3A;   /* headings inside the white body (not on the strip) */
+  /* window controls (⊖ ⊗): a small blue orb, about 60% of the strip height */
+  --ro-orb: linear-gradient(to bottom, #E2ECF5, #B9CEE0 40%, #7FA0C0 58%, #A7BDD3);
+  --ro-orb-hover: linear-gradient(to bottom, #EEF4FA, #CBDCEA 40%, #93B0CC 58%, #B9CCDD);
+  --ro-orb-pressed: linear-gradient(to bottom, #7FA0C0, #B9CEE0 60%, #E2ECF5);
+  --ro-orb-ring: #3B5A82;
+  --ro-orb-glyph: #000000;
   --ro-focus: #3D6DB3;
   --ro-text: #27313F;
   --ro-muted: #66758A;
